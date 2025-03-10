@@ -1,0 +1,214 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    flex-grow: 1; /* Hace que el main ocupe el espacio disponible entre la cabecera y el footer */
+    margin-top: 100px;
+    padding-bottom: 100px; 
+}
+
+
+/* Fons de la pàgina */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: white;
+    background: url('../img/degradado.png') no-repeat center center fixed;
+    background-size: cover; 
+    text-align: left;
+    margin: 20px 0;
+    margin-left: 40px; 
+    margin-right: 90px;
+    color: #161D26;
+    height: 100vh;
+}
+
+p {
+    line-height: 1.8; /* Más espacio entre líneas */
+    margin-bottom: 10px; /* Separar párrafos */
+    margin-left: 40px;
+}
+
+h1 {
+    text-align: left;
+    margin: 20px 0;
+    margin-left: 40px;
+    font-size: 3em;
+    color: #161D26;
+}
+
+h2 {
+    text-align: left;
+    margin: 20px 0;
+    margin-left: 40px;
+    font-weight: bold;
+    color: #176480; 
+    font-size: 1.7em; 
+}
+
+.atribut {
+    margin-left: 40px;
+}
+
+.preu {
+    font-size: 2.5em;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    color: #b366a4;
+}
+
+/* Características del producto */
+.detalls_producte {
+    font-size: 1.2em; /* Tamaño de fuente más grande para las características */
+    line-height: 1.8; /* Interlineado para las características */
+    color: #333; /* Color base para el texto */
+    margin-bottom: 15px;
+}
+
+/* Estilo para "etapa" y otros detalles */
+.detalls_producte p strong {
+    font-weight: bold;
+    color: #176480; 
+    font-size: 1.3em; 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color:#176480; 
+    color: #176480;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+/* Menu */
+.menu-icon,
+.user-icon {
+    font-size: 24px;
+    color: white;
+}
+
+.menu-logo {
+    width: 60px;
+    height: 30px;
+}
+
+.menu {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: #176480;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    display: none; /* Ocultar por defecto */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    margin: 10px 0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Información del producto */
+.product-images img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Formulari */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 100px; /* Evita que el formulario se oculte debajo de la cabecera fija */
+}
+
+
+/* Estilo de los inputs y botones dentro del formulario */
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    color: #333;
+    font-size: 1rem;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #176480; /* Botón con el mismo color que la cabecera */
+    margin-left: 40px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e7b8d; /* Botón más oscuro al pasar el mouse */
+}
+
+/* Footer */
+.footer {
+    background-color: #176480; /* Fondo de pie de página */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed; /* Hace que el footer esté fijo en la parte inferior */
+    bottom: 0; /* Alinea el footer en la parte inferior */
+    left: 0;
+    width: 100%; /* Asegura que el footer ocupe toda el ancho */
+}
+
+
+/* Estilo de los enlaces */
+a {
+    text-decoration: none;
+    color: #ffffff; /* Color blanco para enlaces */
+}
+
+a:hover {
+    color: #f1c40f; /* Color dorado al pasar el mouse sobre los enlaces */
+    text-decoration: underline;
+}
+  
+.boto_comprar {
+    margin-left : 40px;  
+}
+
+.preu_total {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.IP {
+    margin-left : 40px;
+    margin-top: 20px;
+    font-weight: bold;
+}

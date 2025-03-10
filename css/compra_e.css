@@ -1,0 +1,44 @@
+/* Estilos para el cuerpo de la página */
+body {
+    margin: 0;
+    height: 100vh; /* Hace que el body ocupe toda la altura de la ventana */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  /* Contenedor que rodea el título y la imagen, para centrarlo en ambos ejes */
+  .titulo-container {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    height: 100%; /* Ocupa toda la altura disponible */
+  }
+
+  /* Estilos para la imagen */
+  .titulo-imagen {
+    max-width: 150px; /* Tamaño máximo de la imagen */
+    margin-bottom: 20px; /* Espacio entre la imagen y el título */
+  }
+
+  /* Estilos para el título "Compra Exitosa" */
+  .titulo-exitoso {
+    font-size: 3em;
+    text-align: center;
+    color: #4CAF50;
+    font-weight: bold; 
+    margin-bottom: 20px;
+  }
+
+  /* Estilo para el enlace */
+  .link-home {
+    font-size: 1.2em; /* Tamaño de letra un poco más pequeño */
+    color: #4CAF50; /* Color verde */
+    text-decoration: none; /* Quitar subrayado */
+    margin-top: 10px; /* Espacio encima del enlace */
+  }
+
+  .link-home:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+  }
